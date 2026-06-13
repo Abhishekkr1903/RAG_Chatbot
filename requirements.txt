@@ -1,9 +1,15 @@
+streamlit
+
 langchain
-langchain-community
 langchain-core
+langchain-community
 langchain-google-genai
+
+sentence-transformers
 faiss-cpu
 pypdf
+
 python-dotenv
-# Flask
-# flask-cors
+
+langchain-huggingface
+sentence-transformers
