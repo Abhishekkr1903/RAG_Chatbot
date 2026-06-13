@@ -13,9 +13,20 @@ def get_embeddings():
     )
 
 
+# def get_llm():
+
+#     return ChatGoogleGenerativeAI(
+#         model="gemini-2.5-flash",
+#         temperature=0
+#     )
+
+##change for streamlit.
+import streamlit as st
+
 def get_llm():
 
     return ChatGoogleGenerativeAI(
         model="gemini-2.5-flash",
-        temperature=0
+        temperature=0,
+        google_api_key=st.secrets["GOOGLE_API_KEY"]
     )
