@@ -1,0 +1,22 @@
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# FAISS index
+faiss_index/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# Uploaded PDFs
+data/
+
+# Temporary files
+temp/
